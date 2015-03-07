@@ -1,0 +1,15 @@
+{
+  "name": "<%= name %>",
+  "version": "0.1.0",
+  "description": "<%= description %>",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "keywords": [
+    "seneca"
+  ],
+  "dependencies": {
+    "seneca": "^0.6.1"
+  }
+}

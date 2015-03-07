@@ -1,0 +1,20 @@
+{
+  "name": "generator-seneca-micro",
+  "version": "0.1.0",
+  "description": "Yeoman generator for node.js micro-services and -clients",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 50000"
+  },
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "author": "Lauri Svan <lauri.svan@sc5.io> (https://github.com/laurisvan)",
+  "license": "MIT",
+  "dependencies": {
+    "yeoman-generator": "^0.18.9"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.0"
+  }
+}
