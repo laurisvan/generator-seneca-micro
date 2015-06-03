@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha --timeout 50000",
-    "postinstall":"find ./generators -name gitignore -execdir mv gitignore .gitignore \;"
+    "postinstall":"find ./generators -name gitignore -execdir mv gitignore .gitignore \\;"
   },
   "keywords": [
     "yeoman-generator"
